@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin: 5rem auto 0 auto;
+  font-family: 'Caveat', cursive;
+  font-size: 6rem;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #7a885e;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #7a885e;
+  font-size: 1.5rem;
+}
+h4 {
+  color: #7a885e;
+  font-size: 1rem;
+}
+
+.navbar {
+	position: absolute;
+  top: 10px;
+  display: flex;
+	width: 100%;
+	transition: all 0.3s ease;
+}
+.navbar.sticky {
+	padding: 15px 0;
+	background: #7a885e;
+}
+
+.navbar .menu li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a {
+	display: block;
+	color: white;
+	font-size: 20px;
+	margin-left: 15px;
+	font-weight: 700;
+  text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+	color: #7a885e;
+}
+
+.navbar.sticky .menu li a:hover {
+	color: white;
+}
+
+.top-container {
+  background: url("Images/Arenal Volcano.jpg");
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10% 10%;
+  height: 90vh;
+  position: relative;
+  padding-top: 100px;
+  min-height: 600px;
+  color: white;
+}
+
+.top-container p {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: .6rem;
+  border-color: #cfcfcf;
+  width: 10%;
+  margin-bottom: 100px;
+}
+
+.middle-container {
+  margin-top: 20px;
+}
+
+.profile {
+  width: 33%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.profile-pic {
+  height: 256px;
+  width: 256px;
+}
+
+.middle_container a {
+  color: #7a885e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding-pic {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.star-pic {
+  width: 20%;
+  float: right;
+  margin-left: 30px
+}
+
+.bottom-container {
+  padding-top: 50px;
+  background-color: #7a885e;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.bottom-container a {
+  color: white;
+}
+
+.bottom-cloud {
+  margin: 100px;
+  position: absolute;
+  right: 20%;
+  bottom: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 30%;
+  top: 50px
+}
+
+.post-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30%);
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.post {
+  border: 1px solid;
+  word-wrap: break-word;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.post-preview {
+  text-align: left;
+  padding: 15px;
+}
+
+.post-title {
+  margin: 0;
+}
+
+.post-intro {
+  font-size: 14px;
+  color: black;
+}
+
+.projects{
+  width: 60%;
+  margin: 100px auto 100px auto;
+
+}
+
+.btn {
+  color: white;
+  background-color: #7a885e;
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.btn:hover {
+  color: #7a885e;
+  background-color: white;
+  border: solid #7a885e 1px;
+}
+
+.contact-me {
+  margin: 100px auto;
+  line-height: 2;
+  width: 33%;
+}
+
+/* .contact-me p {
+  margin-bottom: 50px;
+} */
